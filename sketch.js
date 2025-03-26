@@ -19,9 +19,9 @@ function setup() {
   nameInput = createInput();
   nameInput.position(20, 65);
 
-  refreshButton = createButton('Refresh');
-  refreshButton.position(nameInput.x + nameInput.width, 90);
-  refreshButton.mousePressed(() => location.reload()); 
+  button = createButton('Refresh');
+  button.position(nameInput.x + nameInput.width, 90);
+  button.mousePressed(() => location.reload()); 
 
   button = createButton('Enter your name');
   button.position(nameInput.x + nameInput.width, 65);
